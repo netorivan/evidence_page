@@ -33,9 +33,10 @@
     margin-right: 15px;
     /* Espaciado entre los elementos de la lista */
 }
+
 /* encabezado principal con titulo e imagen de fondo */
 .header1 {
-   
+
     background-image: url('imagens/front_bakery.jpg');
     background-size: cover;
     /* Cubre toda la sección */
@@ -63,7 +64,7 @@
     color: rgb(252, 254, 254);
 }
 
-.descrip{
+.descrip {
     display: flex;
     justify-content: space-between;
     /* Espacia los elementos a los extremos */
@@ -72,7 +73,8 @@
     width: 100%;
     flex-direction: column;
 }
-.parrafo1{
+
+.parrafo1 {
     text-align: center;
     font-weight: 300;
     font-family: cursive;
@@ -80,28 +82,67 @@
     color: crimson;
     background-color: blanchedalmond;
 }
+
+/* segunda seccion de decoracion e info de la pagina principal
+titulo de esta seccion */
+.contenedor1 {
+    padding: 5%;
+    font-stretch: extra-condensed;
+    text-align: center;
+    background-image: url(imagens/aguila.jpg);
+    color: aliceblue;
+
+}
+
+/* subsection */
+
+.subsect {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: aquamarine;
+}
+
+.columna {
+    flex: 1%;
+    margin: 10%;
+    text-align: center;
+
+}
+
+img {
+    max-width: 100%;
+    /* Asegura que la imagen no exceda el ancho de la columna */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
 /* final de index...................----------------------------- */
 
 /* services......................----------------------- */
 /* esta seccion solo corresponde a el h1 donde aparece services */
-.section-heading{
+.section-heading {
     font-size: 500%;
     font-weight: 900;
 }
+
 /* y esta seccion ppertenece a subtitulo donde aparece el texto de la seccion del encabezado 
 principal de la pagina*/
-.section-subheading{
+.section-subheading {
     background-color: aliceblue;
     color: rgb(50, 11, 244);
 }
-.header3{
+
+.header3 {
     background-image: url('imagens/clark-wilson-Dw3VPW4Z8Ew-unsplash.jpg');
 }
+
 /* aqui termina el encabezado */
-.col-md-4{
+.col-md-4 {
     text-align: center;
 }
-.row{
+
+.row {
     text-align: center;
     display: flex;
     /* Utiliza flexbox para centrar el contenido */
@@ -112,4 +153,3 @@ principal de la pagina*/
     /* Centra verticalmente el contenido */
     align-items: center;
 }
-
