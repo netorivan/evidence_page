@@ -78,38 +78,33 @@
 
   <!-- subsection of imagens and columns -------------------------------------------------- -->
   <!-- imagen 1 con su respectivo meno al hacer clic -->
-  <section class="subsect">
-    <div class="columna">
-      <article id="menu1">
-        <img src="imagens/loro.jpg" alt="">
-        <button type="button" onclick="img_one_info()">clickeame!</button>
-      </article>
+  <section class="subsect container">
+    <div class="row"> <!-- Agregado: clase row para organizar las columnas -->
+      <div class="col-xs-12 col-sm-6 col-md-4"> <!-- Mantén tus clases personalizadas -->
+        <article id="menu1">
+          <img src="imagens/loro.jpg" alt="" class="img-responsive" style="max-width: 100%; height: auto;">
+          <button type="button" onclick="img_one_info()">Clickeame!</button>
+        </article>
+      </div>
 
       <!-- imagen 2 en la columa dos con su respectivo clic y sin el article
        para ver como funciona-->
       <!-- pero para que cambien la imagen por el texto debo introducior un article,
         esto se debe que parq ue la funcion me busque el nombre de el article y lo cambien por el text -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <article id="menu2">
+          <img src="imagens/aguila.jpg" alt="aguila" class="img-responsive" style="max-width: 100%; height: auto;">
+          <button type="button" onclick="img_one_info2()">Clickeame!</button>
+        </article>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <article id="menu3">
+          <img src="imagens/pato.jpg" alt="pato" class="img-responsive" style="max-width: 100%; height: auto;">
+          <button type="button" onclick="img_one_info3()">Clickeame!</button>
+        </article>
+      </div>
     </div>
-    <div class="columna">
-      <article id="menu2">
-        <img src="imagens/aguila.jpg" alt="aguila">
-        <button type="button" onclick="img_one_info2()">clickeame!</button>
-      </article>
-
-    </div>
-
-    <div class="columna">
-      <article id="menu3">
-        <img src="imagens/pato.jpg" alt="pato">
-        <button type="button" onclick="img_one_info3()">clickeame!</button>
-      </article>
-
-    </div>
-
-
-
   </section>
-
 
 
 
